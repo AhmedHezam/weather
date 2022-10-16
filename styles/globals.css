@@ -1,0 +1,148 @@
+/* html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*background-color: rgb(71, 177, 177);*/
+  
+}
+body{
+  background-color: #429bc7;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.main{
+  margin: 5em;
+  height: 80vh;
+  width: 80%;
+  background-image: url(../public/2.jpg); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.title{
+  font-size: 10px;
+  margin-left:3em;
+  margin-top: 3em;
+  height: 10px;
+}
+
+.footer p{
+  font-size: 10px;
+}
+
+.footer{
+
+  font-size: 50px;
+  width: 60%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1em;
+  gap: 0.5em;
+}
+
+.img{
+
+  border-radius: 50%;
+}
+
+#span{
+  font-size:30px ;
+  margin-bottom: 0.3em;
+}
+.form{
+  background-color: #004f74;
+ 
+}
+.srch{
+  display: flex;
+  height: 3em;
+  gap: 2em;
+  margin-bottom: 2em;
+}
+.srch button{
+  height: 50px;
+  width: 50px;
+  background-color: #257eaa;
+  border: none;
+  background-image: url(../public/btn-icon.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.srch input{
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;    
+  margin-top: 2em;
+  margin-left: 2em;
+
+
+  
+}
+
+.lisnav{
+  border-bottom: 1px solid #55626f;
+  overflow: auto;
+  height: 150px;
+  
+}
+
+.lisnav2{
+  margin-top: 1em;
+  border-bottom: 1px solid #55626f;
+  
+}
+
+.form ul li, .form h3{
+  margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 12px;
+  font-style:initial;
+  
+}
+ul li a{
+  color: #fff;
+ 
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+.footer-form{
+  display: flex;
+  justify-content: space-between;
+}
