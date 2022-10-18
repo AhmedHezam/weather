@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const Hero = ({ cities, weather, handleClick, search }) =>{
 return (
-    <div class="main">
+    <div className="main">
         
-        <span class="title">the.weather</span>
-        <div class="footer">
+        <span className="title">the.weather</span>
+        <div className="footer">
             <div><span>{weather.current.temperature}<sup>o</sup></span></div>
             <div>
                 <span id="span">{weather.location.name}</span>
@@ -19,8 +19,8 @@ return (
             
             
         </div>
-        <div class="form">
-            <div class="srch">
+        <div className="form">
+            <div className="srch">
                 <input className="srchbar" type="search" placeholder="Another location" name="" id=""
                 onKeyUp={(ev) =>{ 
                     if(ev.key == "Enter"){
@@ -30,7 +30,7 @@ return (
                 />
                 <button className="btn"></button>
             </div>
-            <div class="lisnav">
+            <div className="lisnav">
                 <ul>
                 {cities.data.map((city) => (
           <li
@@ -44,9 +44,9 @@ return (
         ))}
                 </ul>
             </div>
-            <div class="lisnav2">
+            <div className="lisnav2">
                 <h3>Weather Details</h3>
-                <div class="footer-form">
+                <div className="footer-form">
                 <div>
                 <ul>
                     <li><a href="#">Cloudy</a></li>
