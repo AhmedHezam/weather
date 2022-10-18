@@ -22,7 +22,7 @@ export default function Home() {
   }
 
   useEffect(() => {
-    fetch("https://countriesnow.space/api/v0.1/countries/capital/")
+    fetch("http://countriesnow.space/api/v0.1/countries/capital/")
       .then((response) => response.json())
       .then((response) => {
         setCities(response);
