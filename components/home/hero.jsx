@@ -32,8 +32,8 @@ return (
             </div>
             <div className="lisnav">
                 <ul>
-                {cities.data.map((city) => (
-          <li
+                {cities.data.map((city, key) => (
+          <li key={key}
           style={{ cursor: "pointer" }}
             onClick={() => {
               handleClick(city.capital);
