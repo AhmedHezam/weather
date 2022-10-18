@@ -22,11 +22,11 @@ return (
         <div className="form">
             <div className="srch">
                 <input className="srchbar" type="search" placeholder="Another location" name="" id=""
-                onKeyUp={(ev) =>{ 
-                    if(ev.key == "Enter"){
-                    search();
-                }
-                }}
+                // onKeyUp={(ev) =>{ 
+                //     if(ev.key == "Enter"){
+                //     search();
+                // }
+                // }}
                 />
                 <button className="btn"></button>
             </div>
